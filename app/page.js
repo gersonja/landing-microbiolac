@@ -21,12 +21,12 @@ export default function Home () {
       <section id="inicio">
         <div className="h-screen">
           <div className="contentimage">
-            <Image
-              className="fondox"
-              src="/images/portada-1024x569.webp"
-              alt="principal"
-              width={1024}
-              height={683}
+            <video
+              className="object-center object-cover h-full w-full"
+              src="/video.mp4"
+              autoPlay
+              muted
+              loop
             />
           </div>
           <div className="flex flex-col md:flex-row items-center justify-center w-full h-full">
@@ -62,7 +62,7 @@ export default function Home () {
               <MapPinIcon className="h-20 w-20 mx-auto top-1" />
               <div className="my-auto">
                 <h2 className="font-medium text-lg">Dirección</h2>
-                <p>Oviedo 8-26 y Olmedo, Imbabura, Ibarra, Sagrario. </p>
+                <p>Local 1 Oviedo 8-26 y Olmedo, Planta baja de los Consultorios Médicos del Norte Imbabura, Ibarra. </p>
                 <p>Ecuador</p>
               </div>
             </div>
@@ -79,22 +79,17 @@ export default function Home () {
       <section className="text-blue-800 bg-gradient-radial from-blue-200 from-20% via-cyan-200 via-35% to-white to-80%">
         <div className="flex flex-wrap-reverse justify-center space-x-10 pt-20">
           <div className="flex flex-col items-center justify-center md:w-1/2">
-            <h1 className="text-2xl font-bold">Covid 19</h1>
+            <h1 className="text-2xl font-bold">Exámenes COVID-19</h1>
             <br />
-            <p>La Administración de Alimentos y Medicamentos de los Estados Unidos (FDA) aprobó estos tipos de pruebas para diagnosticar una infección por COVID-19:</p>
+            <p>Ahora más que nunca es importante tener seguridad que nos encontramos en perfecta condiciones de salud, por eso en Microbiolac te ofrecemos las pruebas para la detección de COVID-19.</p>
             <br />
-            <p><u>PRUEBA DE LA RT-PCR</u></p>
-            <br />
-            <p><u>PRUEBA DE ANTÍGENO
-            </u></p>
-            <br />
-            <p><u>PRUEBA DE ANTICUERPOS IgG-IGM
-            </u></p>
-            <br />
-            <p>En Laboratorio Clínico Shadday contamos con todos los exámenes que han sido aprobados para garantizar los resultados y seguridad de nuestros pacientes.</p>
-            <br />
-            <p>Para más información sobre COVID- 19, y todos los procedimientos haga click en el link de abajo.
-            </p>
+            <p>Contamos con:</p>
+            <ul className="list-disc list-inside">
+              <li>Pruebas rápidas IgG e IgM</li>
+              <li>Prueba de Anticuerpos cuantitativos IgG e IgM</li>
+              <li>RT-PCR - hisopado nasofaríngeo</li>
+              <li>Anticuerpos neutralizandos - post vacuna</li>
+            </ul>
           </div>
           <Image
             className="rounded-md"
@@ -113,9 +108,22 @@ export default function Home () {
             height={542} alt="pipeta"
           />
           <div className="flex flex-col items-center justify-center md:w-1/2">
-            <h1 className="text-2xl font-bold">¿Quiénes Somos?</h1>
+            <h1 className="text-2xl font-bold">Somos Gente</h1>
+            <h1 className="text-2xl font-bold">Somos Salud</h1>
             <br />
-            <p className="px-5">Somos un laboratorio clínico que ofrece servicios de análisis clínicos, con el fin de satisfacer las necesidades de nuestros clientes, brindando un servicio de calidad, confiable y oportuno, con personal altamente calificado y tecnología de punta.</p>
+            <p className="px-5">En MICROBIOLAC nos dedicamos a la prestación de servicios profesionales de la salud innovando cada día en la atención a la salud con calidad, contribuyendo al mejoramiento de las condiciones de vida de la comunidad y el entorno empresarial.  Contamos con un equipo altamente calificado y una infraestructura que le permite una valoración médica integral y entrega de resultado de laboratorio confiables.</p>
+          </div>
+        </div>
+        <div className="flex flex-wrap justify-center space-x-10 pt-20">
+          <div className="flex flex-col items-center justify-center md:w-1/3">
+            <h1 className="text-2xl font-bold">Misión</h1>
+            <br />
+            <p className="px-5">Prestar servicios de salud integrales, con altos estándares de calidad, con excelencia y calidad humana en la atención médica comprometida con el mejoramiento continuo para lograr la satisfacción y confianza de nuestros pacientes, siempre preocupados de la salud.</p>
+          </div>
+          <div className="flex flex-col items-center justify-center md:w-1/3">
+            <h1 className="text-2xl font-bold">Visión</h1>
+            <br />
+            <p className="px-5">Ser un establecimiento de la salud reconocido por sus altos estándares de calidad y servicio al cliente, garantizando la seguridad del usuario y brindando confiabilidad y oportunidad en los resultados de laboratorio.</p>
           </div>
         </div>
       </section>
@@ -142,7 +150,7 @@ export default function Home () {
               <br />
               <Image src="/images/convenio.jpg" width={450} height={300} alt="convenio" />
               <br />
-              <p>Laboratorio Clínico Shadday tiene convenios con centros médicos privados y públicos en medicina interna, ginecología, traumatología y endocrinología, entre otras.</p>
+              <p>Laboratorio de Análisis Clínico Microbiolac tiene convenios con centros médicos privados y públicos en medicina interna, ginecología, traumatología y endocrinología, entre otras.</p>
             </div>
             <div className="p-10 w-full md:w-1/2 flex flex-col items-center justify-center">
               <h1 className="text-2xl font-bold">Salud Ocupacional</h1>
@@ -150,6 +158,27 @@ export default function Home () {
               <Image src="/images/ocupacional.jpg" width={450} height={300} alt="ocupacional" />
               <br />
               <p>Realizamos todos los exámenes, para las fichas ocupacionales indicadas por el Ministerio de Trabajo, empresas privadas, colegios y escuelas.</p>
+            </div>
+            <div className="p-10 w-full md:w-1/2 flex flex-col items-center justify-center">
+              <h1 className="text-2xl font-bold">Ecografía y Rayos X</h1>
+              <br />
+              <Image src="/images/RAYOSX-540x460.png" width={540} height={460} alt="rayosx" />
+              <br />
+              <p>Ofrecemos servicios de rayos X y ecografía para ayudar a nuestros pacientes a obtener diagnósticos precisos y rápidos. Nuestro equipo de profesionales altamente capacitados utiliza tecnología avanzada para garantizar que nuestros pacientes reciban la mejor atención posible. Ya sea que necesite una radiografía para detectar una fractura o una ecografía para detectar problemas en los órganos internos del cuerpo, estamos aquí para ayudarlo.</p>
+            </div>
+            <div className="p-10 w-full md:w-1/2 flex flex-col items-center justify-center">
+              <h1 className="text-2xl font-bold">Medicina General y Servicios de Enfermería</h1>
+              <br />
+              <Image src="/images/medicinayenfermeria.webp" width={450} height={300} alt="ocupacional" />
+              <br />
+              <p>Nuestro equipo de profesionales altamente capacitados utiliza tecnología avanzada para garantizar que nuestros pacientes reciban la mejor atención posible. Ya sea que necesite un chequeo médico anual o servicios de enfermería, estamos aquí para ayudarlo.</p>
+            </div>
+            <div className="p-10 w-full md:w-1/2 flex flex-col items-center justify-center">
+              <h1 className="text-2xl font-bold">Planificación Familiar</h1>
+              <br />
+              <Image src="/images/planificacionfamiliar-1200x791.jpg" width={450} height={300} alt="ocupacional" />
+              <br />
+              <p>Ofrecemos servicios de planificación familiar para ayudar a nuestros pacientes a tomar decisiones informadas sobre su salud sexual y reproductiva.</p>
             </div>
           </div>
         </div>
@@ -231,7 +260,7 @@ export default function Home () {
               </div>
               <br />
               <div className="map-responsive px-10">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3989.7686599479302!2d-78.48645528524668!3d-0.285868699791426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMMKwMTcnMDkuMSJTIDc4wrAyOScwMy40Ilc!5e0!3m2!1ses-419!2sec!4v1687749027439!5m2!1ses-419!2sec" width="300" height="200" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3989.743790812831!2d-78.12184958524671!3d0.35020789974449423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMMKwMjEnMDAuOCJOIDc4wrAwNycxMC44Ilc!5e0!3m2!1ses-419!2sec!4v1687793315557!5m2!1ses-419!2sec" width="300" height="200" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
               </div>
             </div>
           </div>
