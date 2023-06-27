@@ -263,6 +263,9 @@ export default function Home () {
                 <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3989.743790812831!2d-78.12184958524671!3d0.35020789974449423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMMKwMjEnMDAuOCJOIDc4wrAwNycxMC44Ilc!5e0!3m2!1ses-419!2sec!4v1687793315557!5m2!1ses-419!2sec" width="300" height="200" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
               </div>
             </div>
+            <div>
+              <a href="http://es.web-counter.net" title="contador de visitas"><Image src="http://www.web-counter.net/count_20091204.php?c=UxUjMBub7bE" style="border:0;padding:0;margin:0;" alt="contador de visitas" /></a><br /><font size="1" face="Arial"><a href="http://us.web-counter.net" title="click counter">click counter</a><br /><a href="http://es.web-counter.net" title="contador de visitas">contador de visitas</a></font>
+            </div>
           </div>
         </div>
       </section>
