@@ -35,7 +35,7 @@ export default function Navbar () {
         </div>
       </div>
       {isOpen && (
-        <div className="flex flex-col fixed top-12 right-0 items-center justify-center w-full h-screen bg-blue-400 z-50">
+        <div className="flex flex-col fixed top-12 right-0 items-center justify-center bg-blue-400 z-50">
           <a className="text-white hover:text-blue-800 hover:bg-white px-10 py-2 hover:rounded-xl transition-all duration-500" href="#inicio">
             Inicio
           </a>
@@ -50,7 +50,6 @@ export default function Navbar () {
           </a>
         </div>
       )}
-
     </>
   )
 }
