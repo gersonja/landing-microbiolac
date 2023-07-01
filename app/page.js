@@ -183,56 +183,6 @@ export default function Home () {
           </div>
         </div>
       </section>
-      {/* <section id="">
-        <div className="flex flex-col justify-center">
-          <h1 className="text-center text-4xl font-bold py-10">¿Por qué elegir Laboratorio de Análisis Clínico Microbiolac?</h1>
-          <div className="flex flex-wrap">
-            <div className="w-[450px] h-[300px] bg-gray-500 justify-center text-center">
-              <p>Imagen</p>
-            </div>
-            <div className="flex flex-col justify-center text-center w-[450px] h-[300px]">
-              <div>
-                <h2 className="font-bold text-2xl">Tecnología de Punta</h2>
-                <br />
-                <p>Contamos con equipos de última generación para garantizar la calidad de nuestros resultados.</p>
-              </div>
-            </div>
-            <div className="w-[450px] h-[300px] bg-gray-500 justify-center text-center">
-              <p>Imagen</p>
-            </div>
-            <div className="flex flex-col justify-center text-center w-[450px] h-[300px]">
-              <div>
-                <h2 className="font-bold text-2xl">Precisión en los Resultados</h2>
-                <br />
-                <p>Realizamos estrictos controles de calidad internos y externos con laboratorios de referencia.  De esta manera garatizamos la precisión en los resultados entregados.</p>
-              </div>
-            </div>
-            <div className="w-[450px] h-[300px] bg-gray-500 justify-center text-center">
-              <p>Imagen</p>
-            </div>
-            <div className="flex flex-col justify-center text-center w-[450px] h-[300px]">
-              <div>
-                <h2 className="font-bold text-2xl">Personal Calificado</h2>
-                <br />
-                <p>Nuestro personal está altamente calificado para brindar un servicio de calidad y confiable.</p>
-              </div>
-            </div>
-            <div className="w-[450px] h-[300px] bg-gray-500 justify-center text-center">
-              <p>Imagen</p>
-            </div>
-            <div className="flex flex-col justify-center text-center w-[450px] h-[300px]">
-              <div>
-                <h2 className="font-bold text-2xl">Atención Personalizada</h2>
-                <br />
-                <p>Brindamos una atención personalizada a cada uno de nuestros pacientes.</p>
-              </div>
-            </div>
-            <div className="wc-[450px] h-[300px] bg-gray-500 justify-center text-center">
-              <p>Imagen</p>
-            </div>
-          </div>
-        </div>
-      </section> */}
       <section id="contacto">
         <div className="h-screen">
           <div className="absolute -z-10 w-full">
